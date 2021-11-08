@@ -31,6 +31,7 @@ function printUser(id) {
   let name = 'Guest'
   if (user != null && user.name != null) name = user.name
   console.log('Hello ' + name)
+  console.log(`hello ${name}`) //using Es6
 
   /*
     This will throw an error if we don't first check that the user object has this function available and isn't null.
