@@ -1,0 +1,5 @@
+//design patterns in javascript
+types of design patterns
+1. null object patterns
+you only access when you have a null in your object.
+
